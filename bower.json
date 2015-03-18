@@ -1,0 +1,26 @@
+{
+  "name": "polymer-theme",
+  "description": "Polymer Theme based on BEM Methodology and Material Design.",
+  "authors": [
+    "Start Polymer (http://startpolymer.org)",
+    "Josef Jezek (https://github.com/JosefJezek)"
+  ],
+  "homepage": "https://github.com/StartPolymer/polymer-theme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/StartPolymer/polymer-theme.git"
+  },
+  "keywords": [
+    "polymer",
+    "theme",
+    "bem",
+    "sass",
+    "scss",
+    "material",
+    "design"
+  ],
+  "ignore": [
+    "**/.*"
+  ],
+  "license": "MIT"
+}

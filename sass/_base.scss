@@ -1,0 +1,10 @@
+@import 'reset';
+@import 'typography/fonts';
+
+%text {
+  @import 'typography/text';
+}
+
+html /deep/ .text {
+  @import 'typography/text';
+}
