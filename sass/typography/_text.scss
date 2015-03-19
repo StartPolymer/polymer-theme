@@ -2,6 +2,9 @@
 // http://www.google.com/design/spec/style/typography.html#typography-standard-styles
 // Inspired by http://brm.io/material-design-type/
 
+// Media query limits
+$phone-width-max:   '640px' !default;
+
 & {
   &_display {
     &_4 {
