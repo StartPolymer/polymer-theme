@@ -2,10 +2,10 @@
 
 // Roboto Font Combinations
 // https://github.com/StartPolymer/polymer-theme/wiki/Roboto-Font-Combinations
-$heading-font-name:     'roboto' !default;
+$font-name-heading:     'roboto' !default;
 $font-lang:             'en' !default;
-$heading-font:          roboto-font($heading-font-name, 'heading') !default;
-$body-font:             roboto-font($heading-font-name, 'body') !default;
-$font-url: roboto-font($heading-font-name, 'url') + '&lang=' + $font-lang !default;
+$font-heading:          roboto-font($font-name-heading, 'heading') !default;
+$font-body:             roboto-font($font-name-heading, 'body') !default;
+$font-url: roboto-font($font-name-heading, 'url') + '&lang=' + $font-lang !default;
 
 @import url($font-url);
