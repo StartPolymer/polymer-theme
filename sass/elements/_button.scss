@@ -98,4 +98,15 @@
       color: $color-text-link;
     }
   }
+
+  &_border {
+    border: 2px solid currentColor;
+  }
+
+  &_round-border {
+    border: 2px solid currentColor;
+    border-radius: 10em;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 }
