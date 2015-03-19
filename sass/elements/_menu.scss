@@ -1,0 +1,42 @@
+.menu {
+  &__item {
+    @extend %text_body_1;
+    transition: all 300ms ease-in-out;
+
+    &.core-selected {
+      font-weight: 500;
+    }
+
+    &::shadow #ripple {
+      color: material-color('grey', '800');
+    }
+
+    &_primary {
+      color: $color-text-primary;
+
+      &.core-selected {
+        background: $color-primary-lightest;
+      }
+
+      &::shadow #ripple {
+        color: $color-primary;
+      }
+    }
+
+    &_secondary {
+      color: $color-text-secondary;
+
+      &.core-selected {
+        background: $color-secondary-lightest;
+      }
+
+      &::shadow #ripple {
+        color: $color-secondary;
+      }
+    }
+  }
+
+  &__icon {
+    margin-right: 16px;
+  }
+}
