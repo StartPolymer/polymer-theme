@@ -17,7 +17,7 @@ or [Polymer generator](https://github.com/yeoman/generator-polymer).
 - Using [Sass](http://sass-lang.com) CSS Preprocessor
 - [Material Design typeface in CSS](http://materialdesignblog.com/material-design-typeface-in-css/)
 - [Roboto Font Combinations](https://github.com/StartPolymer/polymer-theme/wiki/Roboto-Font-Combinations)
-- [Material Design Colors](http://www.google.com/design/spec/style/color.html#color-color-palette)
+- Based on [Material Design Color Palette](http://www.google.com/design/spec/style/color.html#color-color-palette)
 
 ## Installation
 
@@ -49,6 +49,7 @@ body {
 .polymer-theme {
   $color-name-primary:    'indigo';
   $color-name-secondary:  'pink';
+  $color-name-text:       'grey';
   @import 'bower_components/polymer-theme/sass/variables';
   /deep/ {
     @import 'bower_components/polymer-theme/sass/theme';
