@@ -6,7 +6,7 @@
 
     &_disabled {
       background: $color-background-minor;
-      color: material-color($color-name-primary, '200');
+      color: $color-text-primary-disabled-2;
     }
 
     &_raised {
@@ -20,7 +20,7 @@
 
     &_disabled {
       background: $color-background-minor;
-      color: material-color($color-name-secondary, '200');
+      color: $color-text-secondary-disabled-2;
     }
 
     &_raised {
@@ -34,7 +34,7 @@
 
     &_disabled {
       background: $color-background-minor;
-      color: material-color($color-name-success, '200');
+      color: $color-text-success-disabled-2;
     }
 
     &_raised {
@@ -48,7 +48,7 @@
 
     &_disabled {
       background: $color-background-minor;
-      color: material-color($color-name-info, '200');
+      color: $color-text-info-disabled-2;
     }
 
     &_raised {
@@ -62,7 +62,7 @@
 
     &_disabled {
       background: $color-background-minor;
-      color: material-color($color-name-warning, '300');
+      color: $color-text-warning-disabled-2;
     }
 
     &_raised {
@@ -76,7 +76,7 @@
 
     &_disabled {
       background: $color-background-minor;
-      color: material-color($color-name-error, '200');
+      color: $color-text-error-disabled-2;
     }
 
     &_raised {
@@ -100,11 +100,11 @@
   }
 
   &_border {
-    border: 2px solid currentColor;
+    border: 1px solid currentColor;
   }
 
   &_round-border {
-    border: 2px solid currentColor;
+    border: 1px solid currentColor;
     border-radius: 10em;
     padding-left: 8px;
     padding-right: 8px;

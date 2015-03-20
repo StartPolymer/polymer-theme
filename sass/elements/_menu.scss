@@ -8,14 +8,14 @@
     }
 
     &::shadow #ripple {
-      color: material-color('grey', '800');
+      color: $color-text-8;
     }
 
     &_primary {
       color: $color-text-primary;
 
       &.core-selected {
-        background: $color-primary-lightest;
+        background: $color-background-primary;
       }
 
       &::shadow #ripple {
@@ -27,7 +27,7 @@
       color: $color-text-secondary;
 
       &.core-selected {
-        background: $color-secondary-lightest;
+        background: $color-background-secondary;
       }
 
       &::shadow #ripple {
