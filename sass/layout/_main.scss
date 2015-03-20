@@ -3,8 +3,12 @@
     background: $color-background;
     color: $color-text;
 
-    /deep/ a:hover {
-      text-decoration: underline;
+    /deep/ a {
+      color: $color-text-link;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     .fab {
@@ -19,9 +23,17 @@
     }
   }
 
+  &__title {
+    @extend %text_title;
+    padding-left: 32px;
+
+    @media all and (max-width: $phone-width-max) {
+      padding-left: 0;
+    }
+  }
+
   &__toolbar {
     background: $color-primary;
     color: $color-primary-text;
-    @extend %text_title;
   }
 }
