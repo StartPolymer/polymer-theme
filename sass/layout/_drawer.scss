@@ -1,5 +1,6 @@
 .drawer {
   background: $color-background;
+  color: $color-text;
 
   &__content {
     border-right: 1px solid $color-divider;
@@ -19,9 +20,7 @@
   }
 
   &__toolbar {
-    background: $color-primary;
-    color: $color-primary-text;
-    @extend %text_title;
+    // empty
   }
 
   &__widget {
