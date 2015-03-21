@@ -1,4 +1,15 @@
 .fab {
   background: $color-accent;
   color: $color-accent-text;
+
+  &_bottom_right {
+    bottom: 32px;
+    position: fixed;
+    right: 32px;
+
+    @media all and (max-width: $phone-width-max) {
+      bottom: 16px;
+      right: 16px;
+    }
+  }
 }
