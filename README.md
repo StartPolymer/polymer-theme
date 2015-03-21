@@ -52,7 +52,7 @@ body {
   $color-name-text:       'grey';
   @import 'bower_components/polymer-theme/sass/variables';
   /deep/ {
-    @import 'bower_components/polymer-theme/sass/theme';
+    @import 'bower_components/polymer-theme/sass/blocks/all';
   }
 }
 ```
