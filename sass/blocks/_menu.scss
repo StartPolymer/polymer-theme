@@ -7,6 +7,10 @@
       font-weight: 500;
     }
 
+    &:hover {
+      font-weight: 500;
+    }
+
     &::shadow #ripple {
       color: $color-text-8;
     }
