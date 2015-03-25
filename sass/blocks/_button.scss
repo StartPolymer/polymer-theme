@@ -1,8 +1,16 @@
 .button {
   @extend %text_button;
 
+  &:hover {
+    background: $color-background-minor;
+  }
+
   &_primary {
     color: $color-text-primary;
+
+    &:hover {
+      background: $color-background-primary;
+    }
 
     &_disabled {
       background: $color-background-minor;
@@ -12,11 +20,19 @@
     &_raised {
       background: $color-primary;
       color: $color-primary-text;
+
+      &:hover {
+        background: $color-primary-7;
+      }
     }
   }
 
   &_secondary {
     color: $color-text-secondary;
+
+    &:hover {
+      background: $color-background-secondary;
+    }
 
     &_disabled {
       background: $color-background-minor;
@@ -26,11 +42,19 @@
     &_raised {
       background: $color-secondary;
       color: $color-secondary-text;
+
+      &:hover {
+        background: $color-secondary-7;
+      }
     }
   }
 
   &_success {
     color: $color-text-success;
+
+    &:hover {
+      background: $color-background-success;
+    }
 
     &_disabled {
       background: $color-background-minor;
@@ -40,11 +64,19 @@
     &_raised {
       background: $color-success;
       color: $color-success-text;
+
+      &:hover {
+        background: $color-success-7;
+      }
     }
   }
 
   &_info {
     color: $color-text-info;
+
+    &:hover {
+      background: $color-background-info;
+    }
 
     &_disabled {
       background: $color-background-minor;
@@ -54,11 +86,19 @@
     &_raised {
       background: $color-info;
       color: $color-info-text;
+
+      &:hover {
+        background: $color-info-7;
+      }
     }
   }
 
   &_warning {
     color: $color-text-warning;
+
+    &:hover {
+      background: $color-background-warning;
+    }
 
     &_disabled {
       background: $color-background-minor;
@@ -68,11 +108,19 @@
     &_raised {
       background: $color-warning;
       color: $color-warning-text;
+
+      &:hover {
+        background: $color-warning-7;
+      }
     }
   }
 
   &_error {
     color: $color-text-error;
+
+    &:hover {
+      background: $color-background-error;
+    }
 
     &_disabled {
       background: $color-background-minor;
@@ -82,11 +130,19 @@
     &_raised {
       background: $color-error;
       color: $color-error-text;
+
+      &:hover {
+        background: $color-error-7;
+      }
     }
   }
 
   &_link {
     color: $color-text-link;
+
+    &:hover {
+      background: $color-text-link-hover;
+    }
 
     &_disabled {
       background: transparent;
@@ -96,6 +152,10 @@
     &_raised {
       background: transparent;
       color: $color-text-link;
+
+      &:hover {
+        background: $color-text-link-hover;
+      }
     }
   }
 
