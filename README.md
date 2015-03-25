@@ -16,8 +16,11 @@ or [Polymer generator](https://github.com/yeoman/generator-polymer).
  - You don't need [calculating a selector's specificity](http://www.w3.org/TR/css3-selectors/#specificity)
 - Using [Sass](http://sass-lang.com) CSS Preprocessor
 - [Material Design typeface in CSS](http://materialdesignblog.com/material-design-typeface-in-css/)
+ - Check out the [demo](http://polymer-starter-kit.startpolymer.org)
 - [Roboto Font Combinations](https://github.com/StartPolymer/polymer-theme/wiki/Roboto-Font-Combinations)
 - Based on [Material Design Color Palette](http://www.google.com/design/spec/style/color.html#color-color-palette)
+ - Check out the [variables.scss](https://github.com/StartPolymer/polymer-theme/blob/master/sass/_variables.scss) and
+ [material-colors.scss](https://github.com/StartPolymer/polymer-theme/blob/master/sass/modules/_material-colors.scss) module
 
 ## Installation
 
@@ -27,7 +30,7 @@ bower install polymer-theme --save
 
 ## Usage
 
-### main.scss
+### app.scss
 
 ```scss
 $font-name-heading:       'roboto-slab';
@@ -72,6 +75,7 @@ body {
 ```scss
 $color-name-primary:      'indigo';
 $color-name-secondary:    'pink';
+$color-name-text:         'grey';
 ```
 
 ### Roboto Font Combinations
