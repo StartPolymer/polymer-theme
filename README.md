@@ -14,6 +14,7 @@ or [Polymer generator](https://github.com/yeoman/generator-polymer).
  - Reusable CSS styles based on `class` attribute
  - Independent blocks and css selectors plus layer system makes your code reusable and modular
  - You don't need [calculating a selector's specificity](http://www.w3.org/TR/css3-selectors/#specificity)
+ - Check out the [blocks](https://github.com/StartPolymer/polymer-theme/tree/master/sass/blocks)
 - Using [Sass](http://sass-lang.com) CSS Preprocessor
 - [Material Design typeface in CSS](http://materialdesignblog.com/material-design-typeface-in-css/)
  - Check out the [demo](http://polymer-starter-kit.startpolymer.org)
