@@ -1,5 +1,7 @@
 # Polymer Theme
 
+[![Join the chat at https://gitter.im/StartPolymer/polymer-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/StartPolymer/polymer-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Polymer Theme based on [BEM Methodology](http://getbem.com) and
 [Material Design](http://www.google.com/design/spec/material-design/introduction.html) language.
 
